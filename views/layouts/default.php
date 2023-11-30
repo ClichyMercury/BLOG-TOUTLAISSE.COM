@@ -9,11 +9,11 @@
 </head>
 <body class="d-flex flex-column h-100">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="<?= $router->url('home') ?>"><img src="images\GS.png" alt="GS-Blog" width="60"></a>
+    <a class="navbar-brand" href="<?= $router->url('home') ?>"><img src="<?= $router->url('home') ?>images\GS.png" alt="GS-Blog" width="60"></a>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-        <a class="navbar-brand" href="#"><img src="images\gaelSASSAN.png" alt="GS-Blog" width="200"></a>
+        <a class="navbar-brand" href="#"><img src="<?= $router->url('home') ?>images\gaelSASSAN.png" alt="GS-Blog" width="200"></a>
         </li>
       </ul>
     </div>

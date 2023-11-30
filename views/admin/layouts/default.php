@@ -9,7 +9,7 @@
 </head>
 <body class="d-flex flex-column h-100">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="<?= $router->url('home') ?>">GS-Blog</a>
+    <a class="navbar-brand" href="<?= $router->url('home') ?>"><img src="<?= $router->url('home') ?>images\GS.png" alt="GS-Blog" width="60"></a>
         <ul class="navbar-nav">
             <li class="nav-item">
                 <a href="<?= $router->url('admin_posts') ?>" class="nav-link">Articles</a>
@@ -23,6 +23,13 @@
                 </form>
             </li>
         </ul>
+        <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+        <a class="navbar-brand" href="#"><img src="<?= $router->url('home') ?>images\gaelSASSAN.png" alt="GS-Blog" width="200"></a>
+        </li>
+      </ul>
+    </div>
     </nav>
 
     <div class="container mt-4">
